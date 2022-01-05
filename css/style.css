@@ -1,0 +1,77 @@
+body{
+    margin:0;
+}
+.header-font{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+.highlight-font{
+    color: rgb(2, 170, 182);
+}
+.header-secton{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 10px;
+}
+.half-width img{
+    width: 100%;
+}
+.secend-part{
+    margin-top: 100px;
+}
+.first-background-img{
+    background-image: url(../img/third-background.png);
+    background-repeat: no-repeat;
+    position: left;
+
+}
+.expreance-box{
+    width: 50%;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 10px 10px 40px gray;
+}
+.border-left-one{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(0, 95, 95), rgb(41, 230, 255));
+    border-image-slice: 1;
+}
+.border-left-two{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(6, 25, 136), rgb(73, 122, 255));
+    border-image-slice: 1;
+}
+.last{
+
+    margin-top: 100px;
+}
+.footer{
+    background-color: black;
+    color: wheat;
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+.buttun{
+    padding: 5px 15px;
+    background-image: linear-gradient(blue, rgb(130, 130, 252));
+    color: yellow;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.expreance-text{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+.last-secton{
+    display: flex;
+    background-image: url(../img/exp-bg.png);
+    position: left;
+    background-repeat: no-repeat;
+}
